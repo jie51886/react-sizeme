@@ -178,8 +178,9 @@ function withSize(config = defaultConfig) {
       componentWillUnmount() {
         // Change our size checker to a noop just in case we have some
         // late running events.
-        this.hasSizeChanged = () => undefined
-        this.checkIfSizeChanged = () => undefined
+        // FIX: broken in secondary renderer
+        // this.hasSizeChanged = () => undefined
+        // this.checkIfSizeChanged = () => undefined
         this.uninstall()
       }
 
