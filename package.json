@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Make your React Components aware of their width and/or height!",
   "license": "MIT",
-  "main": "dist/react-sizeme.js",
+  "main": "dist/@jie51886/react-sizeme.js",
   "types": "react-sizeme.d.ts",
   "files": [
     "*.js",
