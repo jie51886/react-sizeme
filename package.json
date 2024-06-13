@@ -1,9 +1,9 @@
 {
-  "name": "react-sizeme",
-  "version": "3.0.2",
+  "name": "@jie51886/react-sizeme",
+  "version": "1.0.0",
   "description": "Make your React Components aware of their width and/or height!",
   "license": "MIT",
-  "main": "dist/react-sizeme.js",
+  "main": "dist/@jie51886/react-sizeme.js",
   "types": "react-sizeme.d.ts",
   "files": [
     "*.js",
@@ -13,13 +13,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ctrlplusb/react-sizeme.git"
+    "url": "https://github.com/jie51886/react-sizeme.git"
   },
   "keywords": [
     "library"
   ],
-  "homepage": "https://github.com/ctrlplusb/react-sizeme#readme",
-  "author": "Sean Matheson <sean@ctrlplusb.com>",
+  "homepage": "https://github.com/jie51886/react-sizeme#readme",
+  "author": "jie51886 <jie51886@163.com>",
   "scripts": {
     "build": "node ./tools/scripts/build.js",
     "clean": "rimraf ./dist && rimraf ./coverage",
